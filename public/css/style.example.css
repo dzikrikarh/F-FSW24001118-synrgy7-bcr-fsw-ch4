@@ -1,0 +1,183 @@
+/*BAGIAN 1*/
+.header {
+    background-color: #f1f3ff;
+    height: 504px;
+    z-index: -1;
+    position: relative;
+  }
+  .topheader {
+    width: 1440px;
+  }
+  .row.navwrapper {
+    padding-top: 30px;
+  }
+  .boxlogo {
+    background-color: #0d28a6;
+    height: 36px;
+    width: 100px;
+    margin-top: 10px;
+  }
+  .navbar b {
+    width: 100%;
+    font-size: 14px;
+  }
+  .registerbox {
+    background-color: #5CB85F;
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border-radius: 4px;
+  }
+  .container.bottomheader {
+    padding-bottom: 0px;
+    position: relative;
+  }
+  .col-6.bottomheaderleft {
+    padding-top: 100px;
+    padding-left: 0px;
+  }
+  .bottomheaderleft p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 450px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 450;
+  }
+  .bottomheaderleft btn {
+    background-color: #5cb85f;
+    color: #ffffff;
+    padding: 8px 10px 10px 10px;
+    font-weight: 500;
+    border-radius: 4px;
+  }
+  .col-6.bottomheaderright {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .car {
+    position: relative;
+    width: 664px;
+    transform: rotateY(180deg);
+    bottom: -40px;
+    right: -85px;
+  }
+  .box {
+    position: absolute;
+    bottom: -72px;
+    right: -100px;
+    background-color: #0d28a6;
+    height: 237px;
+    width: 750px;
+    border-radius: 60px 0 0 0;
+    z-index: -1;
+  }
+
+/* BAGIAN 2*/
+
+.carimobil {
+  background-color: #ffffff;
+  color: #3C3C3C;
+  width: 80%;
+  height: 100%;
+  border-radius: 8px;
+  text-align: center;
+  padding: 30px 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 40px;
+}
+
+.icon {
+  display: inline-block;
+  /* width: 100px; */
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+#load-btn {
+  background-color: #5CB85F;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.card-button {
+  background-color: #5CB85F;
+  color: white;
+  border: none;
+  padding: 5px;
+  width: 265px;
+  height: 50px;
+  font-size: 14px;
+}
+
+#cars-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+#cars-container .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  max-height: 160px;
+  overflow:auto;
+  object-fit: cover;
+}
+
+.custom-card {
+  width: 300px;
+}
+
+.icon-capacity {
+  background-image: url('path/to/capacity-icon.png');
+}
+
+.icon-transmission {
+  background-image: url('path/to/transmission-icon.png');
+}
+
+.icon-year {
+  background-image: url('path/to/year-icon.png');
+}
+
+/*BAGIAN 3*/
+  .container.footer {
+  margin-left: 170px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  background-color:#ffff;
+  }
+  .container.footer p {
+    font-size: 14px;
+    font-weight: 450;
+  }
+  .container.footer h6 {
+    line-height: 1.5;
+  }
+  .footer img {
+    padding-right: 10px;
+  }
+  .box3 {
+    width: 100px;
+    height: 34px;
+    background-color: #0d28a6;
+    z-index: 5;
+  }
